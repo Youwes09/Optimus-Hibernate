@@ -1,0 +1,12 @@
+[Unit]
+Description=Hibernate - Low-Power Mode for Optimus Laptops
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/arch-optimus-hibernate.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
