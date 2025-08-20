@@ -1,8 +1,15 @@
-# Lid Low-Power Mode for Optimus Laptops
+# Hibernate - Low-Power Mode for Optimus Laptops
 
-Enhanced lid low-power mode script for laptops with hybrid graphics (NVIDIA/AMD + integrated GPU), focused on energy efficiency and hardware longevity.
+Enhanced lid-functional low-power mode script for laptops with hybrid graphics (NVIDIA/AMD + integrated GPU), focused on energy efficiency and hardware longevity.
 
 ---
+
+## Disclaimer
+
+**This code was tested on an ASUS Zephyrus G14 with Hyprland**
+If you find issues (or missing dependencies) please let me know or make a pull request with your fix.
+My goal is to make an **Optimus** friendly linux environment for future users who may come across the same problems.
+
 
 ## Features
 
@@ -56,3 +63,7 @@ Enhanced lid low-power mode script for laptops with hybrid graphics (NVIDIA/AMD 
 ```bash
 sudo cp lid-lowpower.sh /usr/local/bin/
 sudo chmod +x /usr/local/bin/lid-lowpower.sh
+```
+## Credits
+This code was reviewed by Claude for debugging and adding comments!
+Hopefully that made my code more readable than it would be without, feel free to reach out if you have improvement ideas or questions!
